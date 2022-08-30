@@ -1,0 +1,79 @@
+body {
+    /* something I did on my tier 1 week 6 project */
+    /* https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient#formal_syntax */
+    /* specify the size of the background image/shape you are going to make */
+    /* width and height */
+    background-size: 50px 50px;
+    /* the colors and percents represent the starting points to ending */
+    background-image: repeating-radial-gradient(circle,blue,yellow 10%,red 20%, transparent 80%);
+    animation: craziness 2s ease infinite alternate;
+}
+
+@keyframes craziness {
+    0% {
+        background-image: repeating-radial-gradient(circle,blue,yellow 10%,red 20%, transparent 80%);
+    }
+    5% {
+        background-image: repeating-radial-gradient(circle,blue,yellow 10%,red 20%, transparent 77%);
+    }
+    10% {
+        background-image: repeating-radial-gradient(circle,blue,yellow 10%,red 20%, transparent 74%);
+    }
+    15% {
+        background-image: repeating-radial-gradient(circle,blue,yellow 10%,red 20%, transparent 71%);
+    }
+    20% {
+        background-image: repeating-radial-gradient(circle,blue,yellow 10%,red 20%, transparent 68%);
+    }
+    25% {
+        background-image: repeating-radial-gradient(circle,blue,yellow 10%,red 20%, transparent 65%);
+    }
+    30% {
+        background-image: repeating-radial-gradient(circle,blue,yellow 10%,red 20%, transparent 62%);
+    }
+    35% {
+        background-image: repeating-radial-gradient(circle,blue,yellow 10%,red 20%, transparent 59%);
+    }
+    40% {
+        background-image: repeating-radial-gradient(circle,blue,yellow 10%,red 20%, transparent 56%);
+    }
+    45% {
+        background-image: repeating-radial-gradient(circle,blue,yellow 10%,red 20%, transparent 53%);
+    }
+    50% {
+        background-image: repeating-radial-gradient(circle,blue,yellow 10%,red 20%, transparent 50%);
+    }
+    55% {
+        background-image: repeating-radial-gradient(circle,blue,yellow 10%,red 20%, transparent 47%);
+    }
+    60% {
+        background-image: repeating-radial-gradient(circle,blue,yellow 10%,red 20%, transparent 44%);
+    }
+    65% {
+        background-image: repeating-radial-gradient(circle,blue,yellow 10%,red 20%, transparent 41%);
+    }
+    70% {
+        background-image: repeating-radial-gradient(circle,blue,yellow 10%,red 20%, transparent 38%);
+    }
+    75% {
+        background-image: repeating-radial-gradient(circle,blue,yellow 10%,red 20%, transparent 35%);
+    }
+    80% {
+        background-image: repeating-radial-gradient(circle,blue,yellow 10%,red 20%, transparent 32%);
+    }
+    85% {
+        background-image: repeating-radial-gradient(circle,blue,yellow 10%,red 20%, transparent 29%);
+    }
+    90% {
+        background-image: repeating-radial-gradient(circle,blue,yellow 10%,red 20%, transparent 26%);
+    }
+    95% {
+        background-image: repeating-radial-gradient(circle,blue,yellow 10%,red 20%, transparent 23%);
+    }
+    100% {
+        background-image: repeating-radial-gradient(circle,blue,yellow 10%,red 20%, transparent 20%);
+    }
+}
+
+
+
